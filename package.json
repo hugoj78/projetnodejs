@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-projet2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "create_user": "nodemon app.js",
+    "readUser": "nodemon app_read.js",
+    "updateUser": "nodemon app_update.js",
+    "deleteUser": "nodemon app_delete.js",
+    "facture": "nodemon app_facture.js",
+    "ttc": "nodemon app_totalttc.js",
+    "log": "nodemon app_trashlog.js",
+    "commentaire": "nodemon app_comm.js",
+    "delete_note": "nodemon app_trashclientnote.js",
+    "aff-note": "nodemon app_affnoteclient.js"
+  },
+  "author": "EGU Hugo-Jean FITAMANT Guillaume",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.4.4",
+    "nodemon": "^1.18.9"
+  }
+}

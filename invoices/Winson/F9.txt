@@ -1,0 +1,9 @@
+numero_facture : F9, 
+info_client : Winson - chez toi - 1 - Issou, 
+date : Sun Feb 17 2019 12:34:20 GMT+0100 (GMT+01:00), 
+prestation : dfghj, 
+heure : 230, 
+prix : 2, 
+coutHT : 460, 
+priceTva : 20, 
+coutTTC : 552

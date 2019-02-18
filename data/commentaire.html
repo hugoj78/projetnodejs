@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <h1 style='text-align: center' > Form Facture</h1>
+
+    <form style="text-align: center" method="post" action="/" enctype='application/json'>
+      <p>Quel est le nom du client ?</p>
+      <input type="text" name="name">
+      <p>Votre note sur le client</p>
+      <input type="text" name="note">
+      <p>Souhaitez-vous ajouter une note ?</p>
+      <input type="radio" name="qn" value="true" checked>Oui
+      <input type="radio" name="qn" value ="false">Non
+      <p>Si oui : Votre seconde note ?</p>
+      <input type="text" name="note2">
+      <p>Format ?</p>
+      <input type="radio" name="format" value="json" checked>JSON
+      <input type="radio" name="format" value ="txt">TXT
+      <input type="radio" name="format" value ="html">HTML
+      <br><br>
+      <input type="submit" value="Ajouter">
+    </form>
+  </body>
+</html>

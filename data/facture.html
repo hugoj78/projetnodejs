@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <h1 style='text-align: center' > Form Facture</h1>
+
+    <form style="text-align: center" method="post" action="/" enctype='application/json'>
+      <p>Quel est le nom du client ?</p>
+      <input type="text" name="name">
+      <p>Quel est la prestation fournie ?</p>
+      <input type="text" name="prestation">
+      <p>Combien d'heure facturée ?</p>
+      <input type="text" name="horaire">
+      <p>Quel est le coût horaire ?</p>
+      <input type="text" name="cout">
+      <p>Y a t'il une TVA à appliquer ?</p>
+      <input type="radio" name="tva" value="true" checked>True
+      <input type="radio" name="tva" value ="false">False
+      <p>Si oui : Quel est le taux de TVA ?</p>
+      <input type="text" name="priceTva">
+      <p>Format ?</p>
+      <input type="radio" name="format" value="json" checked>JSON
+      <input type="radio" name="format" value ="txt">TXT
+      <input type="radio" name="format" value ="html">HTML
+      <br><br>
+      <input type="submit" value="Ajouter">
+    </form>
+  </body>
+</html>
